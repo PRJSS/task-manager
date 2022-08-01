@@ -17,5 +17,7 @@ enum Images {
     static let firstLaunchCenterImage1 = "firstLaunchCenterImage1"
     static let firstLaunchCenterImage2 = "firstLaunchCenterImage2"
     static let firstLaunchCenterImage3 = "firstLaunchCenterImage3"
+    static let defaultProfilePhoto = "defaultProfilePhoto"
+    static let succesfulImage = "succesfulImage"
 
 }

@@ -32,6 +32,12 @@
 		65D6F87B288DE1F300CCADED /* task_managerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6F87A288DE1F300CCADED /* task_managerTests.swift */; };
 		65D6F885288DE1F300CCADED /* task_managerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6F884288DE1F300CCADED /* task_managerUITests.swift */; };
 		65D6F887288DE1F300CCADED /* task_managerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6F886288DE1F300CCADED /* task_managerUITestsLaunchTests.swift */; };
+		65EF59F32890DACB00059140 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EF59F22890DACB00059140 /* SignUpView.swift */; };
+		65EF59F52890DD8900059140 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EF59F42890DD8900059140 /* Colors.swift */; };
+		65EF59F72890E40300059140 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EF59F62890E40300059140 /* SignInView.swift */; };
+		65FA185728975059005F40A4 /* ForgotPassworfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FA185628975059005F40A4 /* ForgotPassworfView.swift */; };
+		65FA185928975303005F40A4 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FA185828975302005F40A4 /* ResetPasswordView.swift */; };
+		65FA185B28975461005F40A4 /* SeccessfulLogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FA185A28975461005F40A4 /* SeccessfulLogInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +87,12 @@
 		65D6F880288DE1F300CCADED /* task-managerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "task-managerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D6F884288DE1F300CCADED /* task_managerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = task_managerUITests.swift; sourceTree = "<group>"; };
 		65D6F886288DE1F300CCADED /* task_managerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = task_managerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65EF59F22890DACB00059140 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		65EF59F42890DD8900059140 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		65EF59F62890E40300059140 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		65FA185628975059005F40A4 /* ForgotPassworfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassworfView.swift; sourceTree = "<group>"; };
+		65FA185828975302005F40A4 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		65FA185A28975461005F40A4 /* SeccessfulLogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeccessfulLogInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,7 @@
 		656B7E05288E0C5C006337D1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				65EF59EF2890DA8B00059140 /* Sign Up & Sign In */,
 				656B7E44288E16E0006337D1 /* First Launch Views */,
 				656B7E06288E0C8A006337D1 /* LaunchScreen.swift */,
 			);
@@ -122,6 +135,7 @@
 			children = (
 				656B7E29288E14CD006337D1 /* Fonts */,
 				656B7E09288E0CEB006337D1 /* Images.swift */,
+				65EF59F42890DD8900059140 /* Colors.swift */,
 				65D6F868288DE1F200CCADED /* Assets.xcassets */,
 				65D6F86B288DE1F200CCADED /* Preview Assets.xcassets */,
 				65D6F86F288DE1F200CCADED /* task_manager.xcdatamodeld */,
@@ -229,6 +243,18 @@
 				65D6F886288DE1F300CCADED /* task_managerUITestsLaunchTests.swift */,
 			);
 			path = "task-managerUITests";
+			sourceTree = "<group>";
+		};
+		65EF59EF2890DA8B00059140 /* Sign Up & Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				65EF59F22890DACB00059140 /* SignUpView.swift */,
+				65EF59F62890E40300059140 /* SignInView.swift */,
+				65FA185628975059005F40A4 /* ForgotPassworfView.swift */,
+				65FA185828975302005F40A4 /* ResetPasswordView.swift */,
+				65FA185A28975461005F40A4 /* SeccessfulLogInView.swift */,
+			);
+			path = "Sign Up & Sign In";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,12 +400,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				65D6F86E288DE1F200CCADED /* Persistence.swift in Sources */,
+				65EF59F52890DD8900059140 /* Colors.swift in Sources */,
+				65EF59F32890DACB00059140 /* SignUpView.swift in Sources */,
 				656B7E46288E1702006337D1 /* FirstLaunchView.swift in Sources */,
+				65FA185B28975461005F40A4 /* SeccessfulLogInView.swift in Sources */,
 				656B7E0A288E0CEB006337D1 /* Images.swift in Sources */,
 				65D6F867288DE1F000CCADED /* ContentView.swift in Sources */,
+				65FA185928975303005F40A4 /* ResetPasswordView.swift in Sources */,
 				656B7E49288E187C006337D1 /* GetStartedView.swift in Sources */,
 				656B7E07288E0C8A006337D1 /* LaunchScreen.swift in Sources */,
+				65FA185728975059005F40A4 /* ForgotPassworfView.swift in Sources */,
 				65D6F871288DE1F200CCADED /* task_manager.xcdatamodeld in Sources */,
+				65EF59F72890E40300059140 /* SignInView.swift in Sources */,
 				65D6F865288DE1F000CCADED /* task_managerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -543,10 +575,12 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "task-manager/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Task Manager";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -558,7 +592,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -574,10 +608,12 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "task-manager/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Task Manager";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -589,7 +625,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
